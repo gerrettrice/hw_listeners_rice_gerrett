@@ -9,9 +9,23 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-
-
-
+    <div class="container">
+        <form action="/action_page.php">
+            <label name="firstname">First name:</label>
+            <input type="text" name="firstname" id="firstname">
+            <br />
+            <label name="lastname">Last name:</label>
+            <input type="text" name="lastname" id="lastname">
+            <br />
+            <label name="email">Email:</label>
+            <input type="text" name="email" id="email">
+            <br />
+            <label name="message">Message:</label>
+            <input class="textarea" type="textarea" name="message" id="message">
+            <br />
+            <input id="submit" type="submit" value="Submit">
+        </form>
+    </div>
     <script src="js/main.js"></script>
 </body>
 </html>
